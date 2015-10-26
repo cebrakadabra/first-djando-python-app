@@ -1,4 +1,5 @@
-#This is a python application realised with the django framework
+#A django project
+This is a python application realised with the django framework
 ****************************************************************
 
 ##It’ll consist of two parts:
