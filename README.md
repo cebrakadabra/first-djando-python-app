@@ -13,4 +13,5 @@ This is a python application realised with the django framework
   - $ python manage.py makemigrations polls (migrate changes)
   - $ python manage.py sqlmigrate polls 0001 (show sql statements)
   - $ python manage.py migrate (rendering model states into db)
-- 3. ...
+- 3. setting up the admin section
+- 4. dealing with views and namespaces
