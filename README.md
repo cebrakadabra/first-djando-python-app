@@ -2,6 +2,9 @@
 This is a python application realised with the django framework
 ****************************************************************
 
+##Official tutorial from djangoproject site
+[https://docs.djangoproject.com/en/1.8/intro/tutorial01/]
+
 ##It’ll consist of two parts:
 
 - A public site that lets people view polls and vote in them.
