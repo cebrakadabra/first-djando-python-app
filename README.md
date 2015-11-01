@@ -19,3 +19,4 @@ This is a python application realised with the django framework
 - 6. testing a model --> python manage.py test polls
 - 7. add integration tests for questions
 - 8. add static files and use them in the view
+- 9. figured out, what should be not in git with django
