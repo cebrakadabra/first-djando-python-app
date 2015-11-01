@@ -6,7 +6,7 @@ from django.core.urlresolvers import reverse
 # Create your views here.
 
 
-from .models import Question
+from .models import Choice, Question
 
 # index page
 def index(request):
@@ -32,8 +32,7 @@ def results(request, question_id):
 
 # vote page
 def vote(request, question_id):
-    def vote(request, question_id):
-        p = get_object_or_404(Question, pk=question_id)
+    p = get_object_or_404(Question, pk=question_id)
     try:
         selected_choice = p.choice_set.get(pk=request.POST['choice'])
     except (KeyError, Choice.DoesNotExist):
