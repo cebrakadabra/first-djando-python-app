@@ -17,3 +17,5 @@ This is a python application realised with the django framework
 - 4. dealing with views and namespaces
 - 5. usage of generic views
 - 6. testing a model --> python manage.py test polls
+- 7. add integration tests for questions
+- 8. add static files and use them in the view
