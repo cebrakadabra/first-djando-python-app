@@ -15,3 +15,4 @@ This is a python application realised with the django framework
   - $ python manage.py migrate (rendering model states into db)
 - 3. setting up the admin section
 - 4. dealing with views and namespaces
+- 5. usage of generic views
