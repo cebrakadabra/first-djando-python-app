@@ -10,6 +10,20 @@ https://docs.djangoproject.com/en/1.8/intro/tutorial01/
 - A public site that lets people view polls and vote in them.
 - An admin site that lets you add, change and delete polls.
 
+## start application by running
+```
+python manage.py runserver
+```
+and then run on:
+http://localhost:8000/polls
+
+### If you would like to startup in a virtual env
+```
+virtualenv env
+source env/bin/activate
+```
+
+
 ##Progress doc
 - 1. setup django and check if it's running with default setup
 - 2. defining models, basically the db layout, install polls app in settings
